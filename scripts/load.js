@@ -1,6 +1,6 @@
 let trigger = $('.pin, .logo, .side, .name')
 let container = $('.main')
-container.load('../home.html')
+container.load('home.html')
 
 trigger.on('click', function(){ 
     let $this = $(this)
