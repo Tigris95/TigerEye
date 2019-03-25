@@ -6,7 +6,7 @@ trigger.on('click', function(){
     let $this = $(this)
         target = $this.data('target')
         if(target === 'home'){
-            container.load(`../${target}.html`)
+            container.load(`${target}.html`)
         }else{
             container.load(`${target}.html #${target}` )
             }
