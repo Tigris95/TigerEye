@@ -1,0 +1,18 @@
+.big-text{
+    font-size: 1.5rem;
+    line-height: 2.5rem
+}
+.contact{
+    display: flex;
+    width: 100%;
+    align-items: center
+}
+.first-area{
+    display: flex;
+    align-items: center
+}
+.aboutImage{
+    width:150px;
+    height:150px;
+    border-radius: 50%
+}
