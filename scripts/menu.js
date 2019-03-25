@@ -18,6 +18,7 @@ close.on('click', function(){
         width: 0
     },700, function(){
         hamburger.css('display', 'flex')
+        sideMenu.css('display', 'none')
     })
      
 })    
