@@ -15,6 +15,7 @@ trigger.on('click', function(){
                 width: 0
             },1000, function(){
                 $('.hamburger-icon').css('display', 'flex')
+                $('.side-menu').css('display', 'none')
             })
 })
 trigger.on('mouseenter',function(){
