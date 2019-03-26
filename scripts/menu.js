@@ -11,10 +11,7 @@ hamburgerMenu.on('click', function(){
     hamburger.css('display', 'none')
     sideMenu.animate({
         width: 180
-    },1000,function(){
-        hamburger.css('display', 'flex')
-        sideMenu.css('display', 'none')
-    })
+    },1000)
 
 
 })
