@@ -123,13 +123,13 @@
     background-image: url('../img/image1.jpeg'); 
 }
 .mobile-2{
-    background-image: url('../img/sliderImages/slide02.jpeg');
+    background-image: url('../img/image2.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mobile-3{
-    background-image: url('../img/sliderImages/slide03.jpeg');
+    background-image: url('../img/image3.jpeg');
     height: 100vh;
 }
 .mobile-1 p ,.mobile-2 p, .mobile-3 p{
