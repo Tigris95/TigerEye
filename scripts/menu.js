@@ -4,11 +4,11 @@ let sideMenu =$('.side-menu')
 let hamburger =$('.hamburger-icon')
 let close =$('#close')
 
-sideMenu.css('display', 'none')
+//sideMenu.css('display', 'none')
 
 hamburgerMenu.on('click', function(){
-    sideMenu.css('display', 'flex')
     hamburger.css('display', 'none')
+    sideMenu.css('display', 'flex')
     sideMenu.animate({
         width: 180
     },1000)

@@ -26,12 +26,32 @@
     display: flex;
     justify-content: center;
 }
-.box .icon-mail::before,.box .icon-linkedin::before,.box .icon-phone::before{
+.box .icon-mail::before,.box .icon-linkedin::before,.box .icon-phone::before, .box .icon-facebook::before{
     font-size: 90px;
     transition: all 0.5s ease-in-out
 }
-.box .icon-phone:hover::before, .box .icon-linkedin:hover::before, .box .icon-mail:hover::before{
+.box .icon-phone:hover::before, .box .icon-linkedin:hover::before, .box .icon-mail:hover::before, .box .icon-facebook:hover::before{
     color: #fbff01
 }
+.btn{
+    
+    margin-left: 25%;
+    transform-origin: center;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    font-size: 25px;
+   transform: scale(1.1)
 
-
+}
+.btn-facebook{
+    background-color:#3b569d;
+}
+.btn-linkedID{
+    background-color: #017ab4
+}

@@ -39,7 +39,7 @@
     font-family: 'Roboto Condensed';   
 }
 .slide2{
-    background-image: url('../img/sliderImages/slide02.png');
+    background-image: url('../img/sliderImages/slide02.jpeg');
     font-family: 'Roboto Condensed'; 
 }
 .slide1 p, .slide2 p, .slide3 p{
@@ -53,7 +53,7 @@
     text-align: center;
 }
 .slide3{
-    background-image: url('../img/sliderImages/slide03.png');
+    background-image: url('../img/sliderImages/slide03.jpeg');
     font-family: 'Roboto Condensed'; 
 }
 .slide1 span, .slide2 span, .slide3 span{
@@ -130,7 +130,7 @@
 }
 .mobile-3{
     background-image: url('../img/image3.jpeg');
-    height: 100vh;
+
 }
 .mobile-1 p ,.mobile-2 p, .mobile-3 p{
     width: 80%;

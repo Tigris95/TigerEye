@@ -1,6 +1,7 @@
 let trigger = $('.pin, .logo, .side, .name')
 let container = $('.main')
 container.load('home.html')
+$('.side-menu').css('display', 'none')
 
 trigger.on('click', function(){ 
     let $this = $(this)
@@ -11,11 +12,11 @@ trigger.on('click', function(){
             container.load(`${target}.html #${target}` )
             }
             console.log(target) 
-            $('.side-menu').animate({
+            sideMenu.animate({
                 width: 0
             },1000, function(){
                 $('.hamburger-icon').css('display', 'flex')
-                $('.side-menu').css('display', 'none')
+                sideMenu.css('display', 'none')
             })
 })
 trigger.on('mouseenter',function(){
@@ -25,8 +26,7 @@ trigger.on('mouseenter',function(){
         $('.title').html(title)
         $('.title').animate({
             opacity: 1,
-        },500)
-        
+        },500)    
 })
 trigger.on('mouseleave',function(){
     
