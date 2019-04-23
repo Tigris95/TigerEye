@@ -4,10 +4,7 @@ sliderImages = document.querySelectorAll('.slide')
 arrowRight = document.querySelector('#right-arrow')
 arrowLeft = document.querySelector('#left-arrow')
 
-current = 0;
-
-
-
+current = 1;
 function reset(){
 for(i=0; i<sliderImages.length; i++){
   sliderImages[i].style.display = 'none'
@@ -24,15 +21,16 @@ function slideLeft(){
 
 function slideRight(){
   reset();
+  
   sliderImages[current].style.display = 'block'
-  current ++;
+  current++
   console.log(current)
 }
 
 
 
 arrowRight.addEventListener('click', ()=>{
-  if(current === sliderImages.length){
+  if(current === sliderImages.length ){
     current=0;
   }
   slideRight()

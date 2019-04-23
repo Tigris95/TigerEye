@@ -36,7 +36,9 @@ body {
     display: flex;
     position: -webkit-sticky;
     left: 0;
-    top: 0
+    top: 0;
+    
+
 }
 .title{
     margin-left: 20px;

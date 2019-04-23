@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-    .mobile-1, .mobile-2, .mobile-3,.mobile-content{
+    .mobile-1, .mobile-2, .mobile-3, .mobile-content{
         display: flex !important;
         flex-direction: column;
     }
@@ -42,6 +42,10 @@
     background-image: url('../img/sliderImages/slide02.jpeg');
     font-family: 'Roboto Condensed'; 
 }
+.slide3{
+    background-image: url('../img/sliderImages/slide03.jpeg');
+    font-family: 'Roboto Condensed'; 
+}
 .slide1 p, .slide2 p, .slide3 p{
     background-color: rgba(255, 255, 255, 60%);
     transition: 0.5s ease-in-out all;
@@ -52,10 +56,7 @@
     line-height: 4.5rem;
     text-align: center;
 }
-.slide3{
-    background-image: url('../img/sliderImages/slide03.jpeg');
-    font-family: 'Roboto Condensed'; 
-}
+
 .slide1 span, .slide2 span, .slide3 span{
     margin-left: 100px;
     margin-right: 100px;
